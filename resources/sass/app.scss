@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+    font-family: Nunito, sans-serif;
+}
+
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+.table thead th {
+    border-bottom: 1px solid #343c45;
+}
+
+.table td, .table th {
+    border-top: 1px solid rgb(52, 60, 69);
+}
+
+.loading-spinner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: rgb(47, 54, 95) 0px -13.3333px 0px 14.3333px inset !important;
+}
+
+.default-input {
+    @apply text-white bg-indigo-darkest text-3xl w-full outline-none;
+}
+
+.suggestions {
+    @apply text-white bg-black text-2xl absolute p-2 rounded shadow;
+}
