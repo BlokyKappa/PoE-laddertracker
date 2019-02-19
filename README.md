@@ -11,6 +11,8 @@ git clone https://github.com/BlokyKappa/PoE-laddertracker.git
 
 composer install
 
+yarn or npm install
+
 php artisan migrate
 
 php artisan serve
